@@ -1,0 +1,15 @@
+{
+  "nodes": ["S", "A", "B", "C", "D", "E", "T"],
+  "edges": [
+    {"u": "S", "v": "A", "capacity": 10},
+    {"u": "S", "v": "B", "capacity": 10},
+    {"u": "A", "v": "C", "capacity": 8},
+    {"u": "B", "v": "C", "capacity": 6},
+    {"u": "A", "v": "D", "capacity": 4},
+    {"u": "B", "v": "E", "capacity": 8},
+    {"u": "C", "v": "E", "capacity": 6},
+    {"u": "D", "v": "T", "capacity": 10},
+    {"u": "E", "v": "T", "capacity": 10},
+    {"u": "C", "v": "D", "capacity": 5}
+  ]
+}
